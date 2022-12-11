@@ -10,4 +10,18 @@
 7 "UPDATE students 
   SET Points = 100
   WHERE id = 1"
-8 
+8create table 
+    "CREATE TABLE graduates (
+    id INTEGER  PRIMARY KEY AUTOINCREMENT,
+    Name Text Not Null Unique,
+    Age INTEGER,
+    Gender TEXT,
+    graduation TEXT )"
+ insert Layal
+ "INSERT INTO graduates (name ,Age,Gender)
+  VALUES ('Layal','18','F')"
+date 
+"UPDATE graduates SET graduation= '08/09/2018'
+WHERE id= 1"
+delet layal from students 
+"DELETE FROM students WHERE id=4"
