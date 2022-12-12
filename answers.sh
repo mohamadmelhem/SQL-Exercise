@@ -25,3 +25,25 @@ date
 WHERE id= 1"
 delet layal from students 
 "DELETE FROM students WHERE id=4"
+#join 
+
+#1
+"SELECT employees.Name, employees.Company, companies.Date 
+FROM employees
+INNER JOIN companies ON companies.Name = employees.Company;
+"
+#2
+
+"SELECT employees.Name
+FROM employees
+INNER JOIN companies ON companies.Name=employees.Company
+WHERE companies.Date<2000;"
+
+#3
+"SELECT employees.Name
+FROM employees
+INNER JOIN companies ON companies.Name = employees.Company
+WHERE employees.Role='Graphic Designer';"
+
+
+
